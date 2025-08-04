@@ -17,16 +17,16 @@ PromoFlash is an intelligent assistant that helps users find the best grocery pr
 
 ```
 [User (Telegram/WhatsApp/Web)] ⇄ [Bot Interface]
-                             ⇅
-               [NLP + Conversation Logic]
-                             ⇅
-          [Price Query System (Mock/API/Scraper)]
-                             ⇅
-        [Database + User Preferences + History]
-                             ⇅
-           [Promo & Coupon Notifier (Scheduler)]
-                             ⇅
-                  [Future Monetization Module]
+                     ⇅
+          [NLP + Conversation Logic]
+                     ⇅
+    [Price Query System (Mock/API/Scraper)]
+                     ⇅
+    [Database + User Preferences + History]
+                     ⇅
+    [Promo & Coupon Notifier (Scheduler)]
+                     ⇅
+        [Future Monetization Module]
 ```
 
 ## Project Structure
