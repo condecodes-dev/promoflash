@@ -1,0 +1,36 @@
+# Virtual environments
+venv/
+.venv/
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local database files
+*.sqlite
+*.db
+
+# Configs and sensitive credentials
+.env
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Mock data and CSV files (optional)
+# app/data/*.csv
+
+# IDE and editor configs
+.vscode/
+.idea/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary project directory
+temp/
