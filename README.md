@@ -31,19 +31,30 @@ PromoFlash is an intelligent assistant that helps users find the best grocery pr
 
 ## Project Structure
 
+```
 promoflash/
 ├── app/
-│   ├── interfaces/     # Telegram, WhatsApp, Web bot interfaces
-│   ├── services/       # Business logic: pricing, alerts, messages
-│   ├── db/             # SQLite setup and data models
-│   ├── data/           # Mock data (CSV)
-│   ├── scraping/       # (Future) Web scraping
-│   └── scheduler/      # Notification and promo scheduling
-├── tests/              # Unit and integration tests
-├── main.py             # Entry point
-├── requirements.txt    # Dependencies
+│   ├── interfaces/
+│   ├── services/
+│   ├── db/
+│   ├── data/
+│   ├── scraping/
+│   └── scheduler/
+├── tests/
+├── main.py
+├── requirements.txt
 ├── .gitignore
 └── README.md
+```
+
+**Folders:**
+- `interfaces/` – Telegram, WhatsApp, Web bot interfaces
+- `services/` – Business logic: pricing, alerts, messages
+- `db/` – SQLite setup and data models
+- `data/` – Mock data (CSV)
+- `scraping/` – (Future) Web scraping
+- `scheduler/` – Notification and promo scheduling
+- `tests/` – Unit and integration tests
 
 ---
 
